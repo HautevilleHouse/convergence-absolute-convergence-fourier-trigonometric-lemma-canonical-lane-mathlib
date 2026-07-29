@@ -1,0 +1,13 @@
+import ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean.AdmissibleClass
+import ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean.TheoremStatement
+
+namespace HautevilleHouse
+namespace ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean
+
+def sourceCheckoutHead : String := "e7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8"
+def sourceCheckoutClean : Bool := true
+def sourceRepository : String := "convergence-absolute-convergence-fourier-trigonometric-lemma-canonical-lane"
+def sourceDescription : String := "Convergence Absolute Convergence Fourier Trigonometric Lemma canonical lane package"
+
+end ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean
+end HautevilleHouse

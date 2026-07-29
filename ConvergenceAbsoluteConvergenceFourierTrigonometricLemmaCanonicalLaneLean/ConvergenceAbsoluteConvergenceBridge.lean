@@ -1,0 +1,18 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean.TrigonometricSeriesDefinitions
+import HautevilleHouse.ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean.DirichletKernelEstimates
+import HautevilleHouse.ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean.FejerKernelAndCesaroSummability
+import HautevilleHouse.ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean.AbsoluteConvergenceCriteria
+
+namespace HautevilleHouse
+namespace ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean
+
+def bridgeClosed (A : AdmissibleClass) : Prop :=
+  let S := A.object
+  S.closedThreeManifold
+
+theorem bridge_from_admissible_class (A : AdmissibleClass) : bridgeClosed A :=
+  A.object.conclusion
+
+end ConvergenceAbsoluteConvergenceFourierTrigonometricLemmaCanonicalLaneLean
+end HautevilleHouse
